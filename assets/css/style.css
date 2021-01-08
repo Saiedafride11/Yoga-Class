@@ -1,0 +1,873 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1.h2,h3,h4,h5,h6,p{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+	
+	text-decoration: none;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.container{
+	max-width: 1140px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.section-padding{
+	padding: 90px 0;
+}
+
+@font-face{
+	src: url(../fonts/montserrat/Montserrat-Regular.otf);
+	font-family: Montserrat-Regular;
+}
+
+@font-face{
+	src: url(../fonts/montserrat/Montserrat-Bold.otf);
+	font-family: Montserrat-Bold;
+}
+
+@font-face{
+	src: url(../fonts/Baloo_Bhai/BalooBhai-Regular.ttf);
+	font-family: BalooBhai-Regular;
+}
+
+@font-face{
+	src: url(../fonts/lato/Lato-Bold.ttf);
+	font-family: Lato-Bold;
+}
+
+
+/* =============================================
+			  Start Heading Section                 
+================================================= */
+.header-section{
+	width: 100%;
+	padding: 0px;
+}
+
+.header-section .header{
+	width: 100%;
+	background: url(../images/Header-bg.png) top left no-repeat;
+	background-size: cover;
+}
+
+.header-section .header .logo{
+	width: 10%;
+	float: left;
+	text-align: center;
+
+}
+.header-section .header .logo img{
+	width: 80%;
+	margin: 30px 30px 30px 15px;
+}
+
+.header-section .header .main-menu{
+	width: 90%;
+	float: left;
+}
+.header-section .header .main-menu ul{
+	margin-top: 50px;
+	text-align: right;
+	
+}
+.header-section .header .main-menu ul li{
+	display: inline;
+}
+.header-section .header .main-menu ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	display: inline-block;
+	color: #494f4e;
+	font-size: 21px;
+	line-height: 28px;
+	font-weight: 700px;
+	font-family: BalooBhai-Regular;
+}
+
+.header-section .header .main-menu ul li a:hover{
+	color: #fff;
+	background: #6c9894;
+}
+
+/* =============================================
+			  End Heading Section                 
+================================================= */
+
+/* =============================================
+			  Start banner Section                 
+================================================= */
+
+.banner-section{
+	width: 100%;
+}
+.banner-section .banner{
+	width: 100%;
+}
+
+.banner-left{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.banner-left img{
+	width: 80%;
+}
+
+.banner-right{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.banner-right h1{
+	font-size: 80px;
+	line-height: 105px;
+	font-weight: 700;
+	font-family: BalooBhai-Regular;
+	color: #6c9894;
+	margin-bottom: 0px;
+	margin-top: 115px;
+}
+.banner-right p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #6c9894;
+	margin-top: -17px;
+	margin-bottom: 20px;
+}
+.banner-right .banner-btn{
+	padding: 7px 30px;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	font-family: Lato-Bold;
+	color: #fff;
+	background: #6c9894;
+	margin-bottom: 0px;
+	border-radius: 10px;
+}
+
+.banner-right .banner-btn:hover{
+	background: transparent;
+	border: 1px solid #6c9894;
+	color: #6c9894;
+}
+/* =============================================
+			  End banner Section                 
+================================================= */
+
+/* =============================================
+			  Start choose-section                
+================================================= */
+.choose-class-section{
+	width: 100%;
+	background: #6c9894;
+	margin-top: 100px;
+}
+
+.choose-class-section .choose-title{
+	width: 100%;
+	text-align: center;
+}
+.choose-class-section .choose-title img{
+	width: 20%;
+	margin-left: 975px;
+    margin-top: -315px;
+}
+
+
+.choose-class-section .choose-title h2{
+	font-size: 60px;
+	line-height: 85px;
+	font-weight: 700;
+	font-family: BalooBhai-Regular;
+	color: #fff;
+	margin-top: -150px;
+	margin-bottom: 10px;
+	
+}
+.choose-class-section .choose-title p{
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #fff;
+	
+	
+}
+
+/* ===========choose-class== */
+
+.choose-class-section .choose-class{
+	width: 100%;
+	
+}
+
+.choose-class .choose-class-inner{
+	width: 33.33%;
+	float: left;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.choose-class .choose-class-inner img{
+	width: 80%;
+}
+.choose-class .choose-class-inner h4{
+	font-size: 25px;
+	line-height: 40px;
+	font-weight: 400;
+	font-family: BalooBhai-Regular;
+	color: #fff;
+	margin-top: 5px;
+	margin-bottom: 8px;
+}
+.choose-class .choose-class-inner p{
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #fff;
+	margin-top: -10px;
+	margin-bottom: 30px;
+
+}
+
+/* =============================================
+			  End choose-section                
+================================================= */
+
+/* =============================================
+			  Start our-state-section                
+================================================= */
+.Our-state-section{
+	width: 100%;
+	background: url(../images/State-bg.png) top left no-repeat;
+	background-size: cover;
+}
+
+.Our-state-section .state-title{
+	width: 100%;
+	text-align: center;
+}
+
+.Our-state-section .state-title h2{
+	font-size: 60px;
+	line-height: 85px;
+	font-weight: 700;
+	font-family: BalooBhai-Regular;
+	color: #6c9894;
+	margin-bottom: 10px;
+	
+}
+.Our-state-section .state-title p{
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #6c9894;
+	
+}
+
+/* ======our-state */
+
+.Our-state-section .Our-state{
+	width: 100%;
+	
+}
+
+.Our-state-section .Our-state img{
+	width: 50%;
+}
+
+.Our-state-section .Our-state img:hover{
+	background: #6c9894;
+	width: 100%;
+	height: 100%;
+}
+
+.Our-state .Our-state-inner{
+	width: 33.33%;
+	padding: 200px 0px;
+	float: left;
+	text-align: center;
+	background: url(../images/State.png) center no-repeat;
+	background-size: auto;
+
+	
+}
+
+
+.Our-state .Our-state-inner h4{
+	font-size: 35px;
+	line-height: 60px;
+	font-weight: 400;
+	font-family: BalooBhai-Regular;
+	color: #6c9894;
+	
+}
+
+.Our-state .Our-state-inner p{
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #6c9894;
+	margin-top: -10px;
+
+}
+
+/* =============================================
+			  End our-state-section                
+================================================= */
+
+/* =============================================
+			  Start-best-instructor-section                
+================================================= */
+.best-instructor-section{
+	width: 100%;
+	background: #6c9894;
+}
+
+.best-instructor-section .instructor{
+	width: 100%;
+}
+
+.instructor-left{
+	width: 50%;
+	float: left;
+	text-align: left;
+	
+}
+
+.instructor .instructor-left h2{
+	font-size: 60px;
+	line-height: 70px;
+	font-weight: 700;
+	font-family: BalooBhai-Regular;
+	color: #fff;
+	margin-bottom: 10px;
+	margin-top: 320px;	
+}
+
+.instructor .instructor-left p{
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #fff;
+	margin-bottom: 50px;
+	
+}
+
+.instructor-left .banner-btn{
+	padding: 7px 30px;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	font-family: BalooBhai-Regular;
+	color: #6c9894;
+	background: #fff;
+	border-radius: 10px;
+}
+
+.instructor-left .banner-btn:hover{
+	background: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.instructor-right{
+	width: 50%;
+	float: left;
+}
+
+.instructor-right img{
+	width: 111%;
+}
+/* =============================================
+			  End-best-instructor-section                
+================================================= */
+
+
+
+/* =============================================
+			  Start-nex-experience-section                
+================================================= */
+.nex-experience-section{
+	width: 100%;
+	padding: 100px 0px;
+}
+
+.nex-experience-section .experience{
+	width: 100%;
+}
+
+.experience-left{
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+
+.experience-left img{
+	width:69%;
+}
+
+.experience-right{
+	width: 50%;
+	float: left;
+	text-align: left;
+	
+}
+
+.experience .experience-right h2{
+	font-size: 60px;
+	line-height: 70px;
+	font-weight: 700;
+	font-family: BalooBhai-Regular;
+	color: #6c9894;
+	margin-bottom: 10px;
+	margin-top: 120px;
+	margin-left: 7%;
+	z-index: 9 !important;
+	
+}
+
+.experience .experience-right p{
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #6c9894;
+	margin-bottom: 50px;
+	margin-left: 7%;
+	
+}
+
+.experience-right .banner-btn{
+	padding: 7px 30px;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	font-family: BalooBhai-Regular;
+	color: #fff;
+	background: #6c9894;
+	border-radius: 10px;
+	margin-left: 7%;
+}
+
+.experience-right .banner-btn:hover{
+	background: transparent;
+	border: 1px solid #6c9894;
+	color: #6c9894;
+}
+
+
+/* =============================================
+			  End-nex-experiencer-section                
+================================================= */
+
+
+/* =============================================
+			  pricing-section-section                
+================================================= */
+.pricing-section{
+	width: 100%;
+	background: #6c9894;
+	margin-top: ;
+}
+
+.pricing-section .pricing-title{
+	width: 100%;
+	text-align: center;
+}
+
+.pricing-section  img{
+	width: 40%;
+	margin-left: 745px;
+	margin-top: -800px;
+	
+}
+
+.choose-class-section .choose-title img{
+	width: 20%;
+	margin-left: 975px;
+    margin-top: -350px;
+}
+
+
+.pricing-section .pricing-title h2{
+	font-size: 60px;
+	line-height: 85px;
+	font-weight: 700;
+	font-family: BalooBhai-Regular;
+	color: #fff;
+	margin-bottom: 10px;
+	margin-top: -250px;	
+}
+
+.pricing-section .pricing-title p{
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #fff;
+	margin-bottom: 30px;	
+}
+
+/* ===========pricing== */
+
+.pricing-section .pricing{
+	width: 100%;
+	
+}
+
+.pricing .pricing-inner{
+	width: 33.33%;
+	float: left;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;	
+}
+
+.pricing .pricing-inner .pricing-extra{
+	width: 75%;
+	background: #fff;
+	padding: 50px 0px;
+	border-radius: 10px;
+}
+
+.pricing .pricing-inner h4{
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: 400;
+	font-family: BalooBhai-Regular;
+	color: #6c9894;
+	margin-bottom: 8px;
+}
+
+.pricing .pricing-inner img{
+	width: 20%;
+	margin-bottom: 40px;
+}
+
+.pricing .pricing-inner p{
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #6c9894;
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+
+.pricing-inner .banner-btn{
+	padding: 7px 50px;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	font-family: BalooBhai-Regular;
+	color: #fff;
+	background: #6c9894;
+	border-radius: 5px;
+}
+
+.pricing-inner .banner-btn:hover{
+	background: transparent;
+	border: 1px solid #6c9894;
+	color: #6c9894;
+}
+
+/* =============================================
+			  End pricing-section                
+================================================= */
+
+/* =============================================
+			  Start-trainer-section                
+================================================= */
+.trainer-section{
+	width: 100%;
+	background: url(../images/trainer-bg.png) no-repeat;
+	background-size: cover;
+}
+
+.trainer-section .trainer{
+	width: 100%;
+	text-align: center;
+}
+
+.trainer-section .trainer img{
+	width: 30%;
+	margin-bottom: 10px;
+}
+
+.trainer-section .trainer p{
+	font-size: 35px;
+	line-height: 45px;
+	font-weight: 400;
+	letter-spacing: 2;
+	font-family: Montserrat-Regular;
+	color: #6c9894;
+	margin-bottom: 30px;
+}
+.trainer-section .trainer h3{
+	font-size: 45px;
+	line-height: 30px;
+	font-weight: 400;
+	font-family: BalooBhai-Regular;
+	color: #6c9894;
+	margin-bottom: 8px;
+}
+
+
+/* =============================================
+			  End-trainer-section                
+================================================= */
+
+
+/* =============================================
+			  Start-update-section                
+================================================= */
+
+.update-section{
+	width: 100%;
+	background:#6c9894 ;
+	text-align: center;
+	
+}
+
+.update-section .update{
+	width: 100%;
+}
+
+.update-section .update h2{
+	font-size: 60px;
+	line-height: 85px;
+	font-weight: 700;
+	font-family: BalooBhai-Regular;
+	color: #fff;
+	margin-bottom: 10px;
+
+}
+
+.update-section .update p{
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #fff;
+	margin-bottom: 30px;
+
+}
+
+.update-section .update .form-email{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.update-section .update .form-email input{
+	width: 700px;
+	height: 45px;
+	padding: 10px 20px;
+	border-radius:10px;
+	border: none;
+
+
+}
+
+.update-section .update .form-email input::placeholder{
+	color: #6c9894;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	
+}
+
+.update-section .update .banner-btn{
+	padding: 7px 50px;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	font-family: BalooBhai-Regular;
+	color: #f4f9f4;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	margin-left: 46%;
+}
+
+.update-section .update .banner-btn:hover{
+	background: #fff;
+	border: 1px solid transparent;
+	color: #6c9894;
+}
+/* =============================================
+			  End-update-section                
+================================================= */
+
+
+/*==========================================================
+		Start footer css
+===========================================================*/
+.footer-section{
+	width: 100%;
+	background: #f4f9f4;
+
+
+}
+
+.footer-section .footer{
+	width: 100%;
+}
+
+.footer .footer-title{
+	width: 40%;
+	float: left;
+}
+
+.footer .footer-title h5{
+	font-size: 30px;
+	line-height: 60px;
+	font-weight: 400;
+	font-family: BalooBhai-Regular;
+	color: #6c9894;
+	margin-bottom: 20px;
+}
+.footer .footer-title p{
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #6c9894;
+	text-align: left;
+}
+
+/* footer about */
+.footer .footer-about{
+	width: 20%;
+	float: left;
+}
+.footer .footer-about h5{
+	font-size: 30px;
+	line-height: 60px;
+	font-weight: 400;
+	font-family: BalooBhai-Regular;
+	color: #6c9894;
+	margin-bottom: 20px;
+}
+.footer-about ul{}
+.footer-about ul li{}
+.footer-about ul li a{
+	font-family: Montserrat-Regular;
+	color: #6c9894;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	line-height: 26px;
+}
+.footer-about ul li a:hover{
+	color: #fff;
+	background: #6c9894;
+	padding: 3px 10px 3px 5px;
+	border-radius: 5px;
+}
+/* footer about */
+
+/* footer services */
+.footer .footer-services{
+	width: 20%;
+	float: left;
+}
+.footer .footer-services h5{
+	font-size: 30px;
+	line-height: 60px;
+	font-weight: 400;
+	font-family: BalooBhai-Regular;
+	color: #6c9894;
+	margin-bottom: 20px;
+}
+.footer-services ul{}
+.footer-services ul li{}
+.footer-services ul li a{
+	font-family: Montserrat-Regular;
+	color: #6c9894;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	line-height: 26px;
+}
+.footer-services ul li a:hover{
+	color: #fff;
+	background: #6c9894;
+	padding: 3px 10px 3px 5px;
+	border-radius: 5px;
+}
+/* footer services */
+
+/* footer title */
+.footer .footer-follow{
+	width: 20%;
+	float: left;
+	
+}
+
+.footer .footer-follow h5{
+	font-size: 30px;
+	line-height: 60px;
+	font-weight: 400;
+	font-family: BalooBhai-Regular;
+	color: #6c9894;
+	margin-bottom: 20px;
+}
+
+
+.social-icon{
+
+}
+.social-icon i{
+	height: 35px;
+    width: 35px;
+    line-height: 35px;
+    background-color: #6c9894;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+	margin-right: 10px;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid transparent;
+}
+.social-icon i:hover{
+	background-color: transparent;
+	border: 1px solid #6c9894;
+	color: #6c9894;
+}
+
+/* footer title */
+/*=========================================================
+		End footer css
+============================================================*/
